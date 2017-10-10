@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="s">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+
+<Placemark><name>My Home</name>
+<styleUrl>#s</styleUrl><Point><coordinates>-118.290372,34.027550</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Vermont/Jefferson</name>
+<styleUrl>#s</styleUrl><Point><coordinates>-118.291613,34.025473</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Exposition/Vermont</name>
+<styleUrl>#s</styleUrl><Point><coordinates>-118.291526,34.018355</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Jefferson/Figueroa</name>
+<styleUrl>#s</styleUrl><Point><coordinates>-118.280027,34.022035</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Figueroa/Exposition</name>
+<styleUrl>#s</styleUrl><Point><coordinates>-118.282316,34.018428</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Olin Hall</name>
+<styleUrl>#s</styleUrl><Point><coordinates>-118.289694,34.020625</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Massman Theartre</name>
+<styleUrl>#s</styleUrl><Point><coordinates>-118.289975,34.022699</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Bovard Auditorium</name>
+<styleUrl>#s</styleUrl><Point><coordinates>-118.285538,34.020923</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Leavey Library</name>
+<styleUrl>#s</styleUrl><Point><coordinates>-118.282819,34.021796</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Doheny Memorial</name>
+<styleUrl>#s</styleUrl><Point><coordinates>-118.283755,34.020138</coordinates></Point>
+</Placemark>
+
+<Placemark><name>Capone Lab</name>
+<styleUrl>#s</styleUrl><Point><coordinates>-118.284976,34.019706</coordinates></Point>
+</Placemark>
+
+
+<Style id="transBluePoly">
+ <LineStyle>
+ <width>1.5</width>
+ </LineStyle>
+ <PolyStyle>
+ <color>7dff0000</color>
+ </PolyStyle>
+ </Style> 
+ <Placemark>
+ <name>Convex Hull</name>
+ <visibility>1</visibility>
+ <styleUrl>#transBluePoly</styleUrl>
+ <Polygon>
+ <extrude>1</extrude>
+ <altitudeMode>relativeToGround</altitudeMode>
+ <outerBoundaryIs>
+ <LinearRing>
+ <coordinates> -118.282316,34.018428,17
+ 	-118.289694,34.020625,17
+ 	-118.289975,34.022699,17
+ 	-118.280027,34.022035,17
+ 	-118.282316,34.018428,17
+ </coordinates>
+ </LinearRing>
+ </outerBoundaryIs>
+ </Polygon>
+ </Placemark>
+ </Document>
+</kml>
+
